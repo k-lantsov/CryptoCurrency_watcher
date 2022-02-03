@@ -26,6 +26,4 @@ public class Client {
     @Column(name = "registry_cost")
     private double registryCost;
 
-    @Column(name = "actual_cost")
-    private double actualCost;
 }
