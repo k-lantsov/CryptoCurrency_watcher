@@ -1,0 +1,40 @@
+2022-02-04 20:12:48 [main] INFO  com.idfinance.cryptoapp.CryptoApplication - Starting CryptoApplication using Java 16.0.1 on MacBook-Pro-Konstantin.local with PID 2198 (/Users/k.lantsov/Documents/java/idfinance/cryptoApp/target/classes started by k.lantsov in /Users/k.lantsov/Documents/java/idfinance/cryptoApp)
+2022-02-04 20:12:48 [main] INFO  com.idfinance.cryptoapp.CryptoApplication - No active profile set, falling back to default profiles: default
+2022-02-04 20:12:49 [main] INFO  springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-04 20:12:49 [main] INFO  springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 47 ms. Found 2 JPA repository interfaces.
+2022-02-04 20:12:49 [main] INFO  boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-02-04 20:12:49 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-02-04 20:12:49 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-02-04 20:12:49 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-04 20:12:49 [main] INFO  core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-02-04 20:12:49 [main] INFO  boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1249 ms
+2022-02-04 20:12:50 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-02-04 20:12:50 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-02-04 20:12:50 [main] INFO  hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-04 20:12:50 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.4.Final
+2022-02-04 20:12:50 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-04 20:12:50 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-02-04 20:12:50 [main] INFO  transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-04 20:12:50 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-04 20:12:50 [main] WARN  boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-04 20:12:51 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-02-04 20:12:51 [main] INFO  boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-02-04 20:12:51 [main] INFO  com.idfinance.cryptoapp.CryptoApplication - Started CryptoApplication in 2.865 seconds (JVM running for 3.746)
+2022-02-04 20:12:52 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: ETH, username: Tom, the price has changed by 10,7577 percents
+2022-02-04 20:12:52 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: ETH, username: Konstantin, the price has changed by 2,1695 percents
+2022-02-04 20:12:52 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: BTC, username: Tom, the price has changed by 9,1512 percents
+2022-02-04 20:12:52 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: BTC, username: Roger, the price has changed by 6,0284 percents
+2022-02-04 20:12:52 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: SOL, username: Tom, the price has changed by 8,7034 percents
+2022-02-04 20:13:51 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: ETH, username: Tom, the price has changed by 10,7577 percents
+2022-02-04 20:13:51 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: ETH, username: Konstantin, the price has changed by 2,1695 percents
+2022-02-04 20:13:51 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: BTC, username: Tom, the price has changed by 9,1512 percents
+2022-02-04 20:13:51 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: BTC, username: Roger, the price has changed by 6,0284 percents
+2022-02-04 20:13:52 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: SOL, username: Tom, the price has changed by 8,8028 percents
+2022-02-04 20:14:51 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: ETH, username: Tom, the price has changed by 10,7577 percents
+2022-02-04 20:14:51 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: ETH, username: Konstantin, the price has changed by 2,1695 percents
+2022-02-04 20:14:52 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: BTC, username: Tom, the price has changed by 9,1512 percents
+2022-02-04 20:14:52 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: BTC, username: Roger, the price has changed by 6,0284 percents
+2022-02-04 20:14:52 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: SOL, username: Tom, the price has changed by 8,8028 percents
+2022-02-04 20:15:25 [SpringApplicationShutdownHook] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-02-04 20:15:25 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-02-04 20:15:25 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

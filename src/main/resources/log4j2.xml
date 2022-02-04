@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="INFO">
+    <Properties>
+        <Property name="filePath">
+            /Users/k.lantsov/Documents/java/idfinance/cryptoApp/logs/
+        </Property>
+    </Properties>
+
+    <Appenders>
+        <Console name="LogToConsole" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{HH:mm:ss} %-5level %logger{1} - %msg%n" />
+        </Console>
+        <RollingFile name="LogToRollingFile"
+                     filePattern="${filePath}$${date:yyyy-MM}/cryptoApp-%d{yyyy-MM-dd}-%i.log"
+                     append="true">
+            <PatternLayout pattern="%d{yyy-MM-dd HH:mm:ss} [%t] %-5level %logger{5} - %msg%n"/>
+            <Policies>
+                <TimeBasedTriggeringPolicy />
+                <SizeBasedTriggeringPolicy size="1 MB"/>
+            </Policies>
+        </RollingFile>
+    </Appenders>
+
+    <Loggers>
+        <Root level="info">
+            <AppenderRef ref="LogToConsole" />
+            <AppenderRef ref="LogToRollingFile"/>
+        </Root>
+    </Loggers>
+
+</Configuration>
