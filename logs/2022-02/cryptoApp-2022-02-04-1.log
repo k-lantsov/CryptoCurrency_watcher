@@ -38,3 +38,121 @@
 2022-02-04 20:15:25 [SpringApplicationShutdownHook] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
 2022-02-04 20:15:25 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
 2022-02-04 20:15:25 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-02-04 20:37:02 [main] INFO  com.idfinance.cryptoapp.CryptoApplication - Starting CryptoApplication using Java 16.0.1 on MacBook-Pro-Konstantin.local with PID 2381 (/Users/k.lantsov/Documents/java/idfinance/cryptoApp/target/classes started by k.lantsov in /Users/k.lantsov/Documents/java/idfinance/cryptoApp)
+2022-02-04 20:37:02 [main] INFO  com.idfinance.cryptoapp.CryptoApplication - No active profile set, falling back to default profiles: default
+2022-02-04 20:37:03 [main] INFO  springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-04 20:37:03 [main] INFO  springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 46 ms. Found 2 JPA repository interfaces.
+2022-02-04 20:37:04 [main] INFO  boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-02-04 20:37:04 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-02-04 20:37:04 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-02-04 20:37:04 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-04 20:37:04 [main] INFO  core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-02-04 20:37:04 [main] INFO  boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1304 ms
+2022-02-04 20:37:04 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-02-04 20:37:04 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-02-04 20:37:04 [main] INFO  hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-04 20:37:04 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.4.Final
+2022-02-04 20:37:04 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-04 20:37:04 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-02-04 20:37:04 [main] INFO  transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-04 20:37:04 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-04 20:37:05 [main] WARN  boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-04 20:37:05 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-02-04 20:37:05 [main] INFO  boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-02-04 20:37:05 [main] INFO  com.idfinance.cryptoapp.CryptoApplication - Started CryptoApplication in 2.953 seconds (JVM running for 3.954)
+2022-02-04 20:37:06 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: ETH, username: Tom, the price has changed by 10,9033 percents
+2022-02-04 20:37:06 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: ETH, username: Konstantin, the price has changed by 2,3038 percents
+2022-02-04 20:37:06 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: BTC, username: Tom, the price has changed by 9,3270 percents
+2022-02-04 20:37:06 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: BTC, username: Roger, the price has changed by 6,1991 percents
+2022-02-04 20:37:07 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: SOL, username: Tom, the price has changed by 8,9717 percents
+2022-02-04 20:37:16 [http-nio-8080-exec-2] INFO  core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-04 20:37:16 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-02-04 20:37:16 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-02-04 20:38:06 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: ETH, username: Tom, the price has changed by 10,9033 percents
+2022-02-04 20:38:06 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: ETH, username: Konstantin, the price has changed by 2,3038 percents
+2022-02-04 20:38:06 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: BTC, username: Tom, the price has changed by 9,3270 percents
+2022-02-04 20:38:06 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: BTC, username: Roger, the price has changed by 6,1991 percents
+2022-02-04 20:38:06 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: SOL, username: Tom, the price has changed by 8,9717 percents
+2022-02-04 20:39:05 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: ETH, username: Tom, the price has changed by 10,8512 percents
+2022-02-04 20:39:05 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: ETH, username: Konstantin, the price has changed by 2,2558 percents
+2022-02-04 20:39:07 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: BTC, username: Tom, the price has changed by 9,2424 percents
+2022-02-04 20:39:07 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: BTC, username: Roger, the price has changed by 6,1169 percents
+2022-02-04 20:39:08 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: SOL, username: Tom, the price has changed by 8,8624 percents
+2022-02-04 20:40:17 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: ETH, username: Tom, the price has changed by 10,8512 percents
+2022-02-04 20:40:17 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: ETH, username: Konstantin, the price has changed by 2,2558 percents
+2022-02-04 20:40:22 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: BTC, username: Tom, the price has changed by 9,2424 percents
+2022-02-04 20:40:22 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: BTC, username: Roger, the price has changed by 6,1169 percents
+2022-02-04 20:40:22 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: SOL, username: Tom, the price has changed by 8,8624 percents
+2022-02-04 20:41:05 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: ETH, username: Tom, the price has changed by 10,8833 percents
+2022-02-04 20:41:05 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: ETH, username: Konstantin, the price has changed by 2,2853 percents
+2022-02-04 20:41:06 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: BTC, username: Tom, the price has changed by 9,3178 percents
+2022-02-04 20:41:06 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: BTC, username: Roger, the price has changed by 6,1902 percents
+2022-02-04 20:41:06 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: SOL, username: Tom, the price has changed by 8,8624 percents
+2022-02-04 20:42:06 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: ETH, username: Tom, the price has changed by 10,8833 percents
+2022-02-04 20:42:06 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: ETH, username: Konstantin, the price has changed by 2,2853 percents
+2022-02-04 20:42:07 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: BTC, username: Tom, the price has changed by 9,3178 percents
+2022-02-04 20:42:07 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: BTC, username: Roger, the price has changed by 6,1902 percents
+2022-02-04 20:42:09 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: SOL, username: Tom, the price has changed by 8,8624 percents
+2022-02-04 20:43:05 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: ETH, username: Tom, the price has changed by 10,8833 percents
+2022-02-04 20:43:05 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: ETH, username: Konstantin, the price has changed by 2,2853 percents
+2022-02-04 20:43:06 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: BTC, username: Tom, the price has changed by 9,3178 percents
+2022-02-04 20:43:06 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: BTC, username: Roger, the price has changed by 6,1902 percents
+2022-02-04 20:43:07 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: SOL, username: Tom, the price has changed by 9,0114 percents
+2022-02-04 20:44:11 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: ETH, username: Tom, the price has changed by 10,8833 percents
+2022-02-04 20:44:11 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: ETH, username: Konstantin, the price has changed by 2,2853 percents
+2022-02-04 20:44:16 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: BTC, username: Tom, the price has changed by 9,3178 percents
+2022-02-04 20:44:16 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: BTC, username: Roger, the price has changed by 6,1902 percents
+2022-02-04 20:44:16 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: SOL, username: Tom, the price has changed by 9,0114 percents
+2022-02-04 20:45:08 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: ETH, username: Tom, the price has changed by 11,1281 percents
+2022-02-04 20:45:08 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: ETH, username: Konstantin, the price has changed by 2,5112 percents
+2022-02-04 20:45:09 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: BTC, username: Tom, the price has changed by 9,5745 percents
+2022-02-04 20:45:09 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: BTC, username: Roger, the price has changed by 6,4395 percents
+2022-02-04 20:45:10 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: SOL, username: Tom, the price has changed by 9,0114 percents
+2022-02-04 20:46:05 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: ETH, username: Tom, the price has changed by 11,1281 percents
+2022-02-04 20:46:05 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: ETH, username: Konstantin, the price has changed by 2,5112 percents
+2022-02-04 20:46:06 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: BTC, username: Tom, the price has changed by 9,5745 percents
+2022-02-04 20:46:06 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: BTC, username: Roger, the price has changed by 6,4395 percents
+2022-02-04 20:46:06 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: SOL, username: Tom, the price has changed by 9,0114 percents
+2022-02-04 20:47:06 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: ETH, username: Tom, the price has changed by 11,1281 percents
+2022-02-04 20:47:06 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: ETH, username: Konstantin, the price has changed by 2,5112 percents
+2022-02-04 20:47:06 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: BTC, username: Tom, the price has changed by 9,5745 percents
+2022-02-04 20:47:06 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: BTC, username: Roger, the price has changed by 6,4395 percents
+2022-02-04 20:47:07 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: SOL, username: Tom, the price has changed by 9,0114 percents
+2022-02-04 20:48:16 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: ETH, username: Tom, the price has changed by 11,1281 percents
+2022-02-04 20:48:16 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: ETH, username: Konstantin, the price has changed by 2,5112 percents
+2022-02-04 20:48:18 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: BTC, username: Tom, the price has changed by 9,5745 percents
+2022-02-04 20:48:18 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: BTC, username: Roger, the price has changed by 6,4395 percents
+2022-02-04 20:48:19 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: SOL, username: Tom, the price has changed by 9,0114 percents
+2022-02-04 20:49:05 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: ETH, username: Tom, the price has changed by 11,1021 percents
+2022-02-04 20:49:05 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: ETH, username: Konstantin, the price has changed by 2,4871 percents
+2022-02-04 20:49:06 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: BTC, username: Tom, the price has changed by 9,4963 percents
+2022-02-04 20:49:06 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: BTC, username: Roger, the price has changed by 6,3636 percents
+2022-02-04 20:49:06 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: SOL, username: Tom, the price has changed by 8,7630 percents
+2022-02-04 20:50:06 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: ETH, username: Tom, the price has changed by 11,1021 percents
+2022-02-04 20:50:06 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: ETH, username: Konstantin, the price has changed by 2,4871 percents
+2022-02-04 20:50:09 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: BTC, username: Tom, the price has changed by 9,4963 percents
+2022-02-04 20:50:09 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: BTC, username: Roger, the price has changed by 6,3636 percents
+2022-02-04 20:50:10 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: SOL, username: Tom, the price has changed by 8,7630 percents
+2022-02-04 20:51:09 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: ETH, username: Tom, the price has changed by 11,1239 percents
+2022-02-04 20:51:09 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: ETH, username: Konstantin, the price has changed by 2,5073 percents
+2022-02-04 20:51:10 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: BTC, username: Tom, the price has changed by 9,5243 percents
+2022-02-04 20:51:10 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: BTC, username: Roger, the price has changed by 6,3908 percents
+2022-02-04 20:51:10 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: SOL, username: Tom, the price has changed by 8,5047 percents
+2022-02-04 20:52:10 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: ETH, username: Tom, the price has changed by 11,1239 percents
+2022-02-04 20:52:10 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: ETH, username: Konstantin, the price has changed by 2,5073 percents
+2022-02-04 20:52:13 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: BTC, username: Tom, the price has changed by 9,5243 percents
+2022-02-04 20:52:13 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: BTC, username: Roger, the price has changed by 6,3908 percents
+2022-02-04 20:52:14 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: SOL, username: Tom, the price has changed by 8,5047 percents
+2022-02-04 20:53:05 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: ETH, username: Tom, the price has changed by 11,3122 percents
+2022-02-04 20:53:05 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: ETH, username: Konstantin, the price has changed by 2,6810 percents
+2022-02-04 20:53:06 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: BTC, username: Tom, the price has changed by 9,6942 percents
+2022-02-04 20:53:06 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: BTC, username: Roger, the price has changed by 6,5559 percents
+2022-02-04 20:53:11 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: SOL, username: Tom, the price has changed by 8,5047 percents
+2022-02-04 20:54:06 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: ETH, username: Tom, the price has changed by 11,3122 percents
+2022-02-04 20:54:06 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: ETH, username: Konstantin, the price has changed by 2,6810 percents
+2022-02-04 20:54:07 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: BTC, username: Tom, the price has changed by 9,6942 percents
+2022-02-04 20:54:07 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: BTC, username: Roger, the price has changed by 6,5559 percents
+2022-02-04 20:54:07 [scheduling-1] WARN  com.idfinance.cryptoapp.service.ClientServiceImpl - Coin: SOL, username: Tom, the price has changed by 8,5047 percents
+2022-02-04 20:54:41 [SpringApplicationShutdownHook] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-02-04 20:54:41 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-02-04 20:54:41 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

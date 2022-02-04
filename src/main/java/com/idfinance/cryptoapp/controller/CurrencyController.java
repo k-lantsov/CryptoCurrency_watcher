@@ -7,8 +7,6 @@ import com.idfinance.cryptoapp.entity.Currency;
 import com.idfinance.cryptoapp.mapper.FromCurrencyToCurrencyDtoMapper;
 import com.idfinance.cryptoapp.service.ClientService;
 import com.idfinance.cryptoapp.service.CurrencyService;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -19,7 +17,7 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-@RequestMapping("api")
+@RequestMapping("/api")
 public class CurrencyController {
 
     private final CurrencyService currencyServiceImpl;
